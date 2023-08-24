@@ -1,0 +1,12 @@
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\bin\Debug\Bloc de Notas.exe.config
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\bin\Debug\Bloc de Notas.exe
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\bin\Debug\Bloc de Notas.pdb
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc de Notas.csproj.AssemblyReference.cache
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc_de_Notas.Form1.resources
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc_de_Notas.Properties.Resources.resources
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc de Notas.csproj.GenerateResource.cache
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc de Notas.csproj.CoreCompileInputs.cache
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc de Notas.exe
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc de Notas.pdb
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\bin\Debug\MaterialSkin.dll
+D:\Documentos\Documentos\Bloc de Notas\Bloc de Notas\Bloc de Notas\obj\Debug\Bloc de Notas.csproj.CopyComplete
