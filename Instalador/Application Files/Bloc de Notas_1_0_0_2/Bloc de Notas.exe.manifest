@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bloc de Notas.exe" version="1.0.0.2" publicKeyToken="f479d6a29d4e4a46" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="16_122653.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bloc de Notas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bloc de Notas.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bloc de Notas.exe" size="148448">
+      <assemblyIdentity name="Bloc de Notas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4qogJKpWsDnCLpneDo6GoQpBLBqdzy7bRvHxm50N7E4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="587776">
+      <assemblyIdentity name="MaterialSkin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uYed8V6CxS6RZscfexd8V71MgomCGmWp0/Uiiz9ga04=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="16_122653.ico" size="66110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F89Zs5Vih59Ai74qc8gLoGSRKWlzZvuSZ5MCqZIrjrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="16_122653.png" size="15123">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h1BftMPCWAdZHe8pE5Nauh+KH4XPMrfHCfk74wXJ03Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Bloc de Notas.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-40O5D69\Nahue" issuerKeyHash="3eb46e5f600cc1a2f6977832a79c1ead70d03888" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZD31YLIk1lfiB096ZnQlqf6Ru7KbpAtH2hR1M0rCU6o=</DigestValue></Reference></SignedInfo><SignatureValue>ol+0Tw4YsycsbN1ittShGiAOkq/I5Xp8obkB8XS7ImfDXHitkt6WEWCoMFkP3TNjhlrErSeN1FLeHP9bEKwRVdsXeNASEEXFR4HTPCUWMWqMKAS3HzSzUMgAqU1gAaOa7+qQ3ZeltWglXKoSAsbdmsr+AvKGJpW82wW7idjQjfg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vAk4DuiX6miBotxSTgtnWwMH/1Vs1L866Y1CLcTE/4zkPjQlC0D8rhZZknbHQbiMedvdFm+0mlCc38EBifBntz3sL5KCh+Tp4kgCKtpcuI+uLJuQM6pFfQMNTDojiJ5cnye7K6to9xuBUDdHlLEJ03kxRsy5V0nChh2SQOI9ZK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aa53c24a337514da470ba49bb2bb91fea92574667a4f07e257d624b260f53d64" Description="" Url=""><as:assemblyIdentity name="Bloc de Notas.exe" version="1.0.0.2" publicKeyToken="f479d6a29d4e4a46" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-40O5D69\Nahue</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2McYZdmUIV6Hv+3kJseykNT6Ik5jIPQc2gADRxZcMFU=</DigestValue></Reference></SignedInfo><SignatureValue>pR0Q3wfu9QVkcGAdEA1maMa/u93LzWjxw5+91YkHGNolj1dIp2A5/ReK1/RfQWNk7XnFgxbBmc1/gH4FDXJ6Pl3ENBVNdzvQ1QAPswM0Oin8wdQWqEfMp82rGQH9eZdcQmAUs4WHuECokSL6fPoAsw2I/1M2aRAoYXHSgDoo8QY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vAk4DuiX6miBotxSTgtnWwMH/1Vs1L866Y1CLcTE/4zkPjQlC0D8rhZZknbHQbiMedvdFm+0mlCc38EBifBntz3sL5KCh+Tp4kgCKtpcuI+uLJuQM6pFfQMNTDojiJ5cnye7K6to9xuBUDdHlLEJ03kxRsy5V0nChh2SQOI9ZK0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQORq3wzQmOZZMGlTczlocrzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAMABPADUARAA2ADkAXABOAGEAaAB1AGUwHhcNMjMwODI0MTIzMDU1WhcNMjQwODIzMTgzMDU1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAMABPADUARAA2ADkAXABOAGEAaAB1AGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALwJOA7ol+pogaLcUk4LZ1sDB/9VbNS/OumNQi3ExP+M5D40JQtA/K4WWZJ2x0G4jHnb3RZvtJpQnN/BAYnwZ7c97C+Sgofk6eJIAiraXLiPriybkDOqRX0DDUw6I4ieXJ8nuyuraPcbgVA3R5SxCdN5MUbMuVdJwoYdkkDiPWStAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAncymkK4OeSrDbmpuzUQP60GqCfAD118NS/7eoQ96CiGohuhT99cK3p1It56HjdnEIO9AS8XbAemD/A/D4l85AtftIQVT/CXVb76IYnnvj9yJul5aDHMsR6SpWOQd5ehGhHP8syf0RONI8h92y0UzwzosiCSGMigkQl3P/xmyPQ0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
